@@ -8,32 +8,34 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <!--<link rel="stylesheet" href="style.css" />-->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
-<body id="container">
+<body class="h-full flex items-center flex-col text-black max-w-[588px] mt-14 mx-auto mb-0 px-6">
 
-    <header id="profile">
-        <img src="https://i.pinimg.com/564x/68/26/91/6826914ee90781a5007cc6c5e1692b62.jpg" alt="Foto de perfil do Mateus"/>
-        <p>@maatkkj</p>
+    <header class="text-center p-6">
+
+        <img class="w-28 rounded-full" src="https://i.pinimg.com/564x/68/26/91/6826914ee90781a5007cc6c5e1692b62.jpg" alt="Foto de perfil do Mateus"/>
+        <p class=" font-medium text-3xl leading-relaxed mt-2">@maatkkj</p>
         
     </header>
 
-    <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span> </span>
+    <div class="relative w-16 mt-1 mx-auto">
+        <button class="size-8 rounded-full absolute top-1/2 left-0 z-10 hover:ring-1"></button>
+        <span class="block w-16 h-6 bg-gray-600 border rounded-full"> </span>
     </div>
-    <ul>
-        <li><a href ="http://" target ="_blank" >Download CV</a></li>
-        <li><a href ="http://" target ="_blank" >Meu Linkedin</a></li>
-        <li><a href ="http://" target ="_blank" >Veja o meu portifólio</a></li>
-        <li><a href ="http://" target ="_blank" >Agendar reunião</a></li>
+    <ul class=" list-none flex flex-col gap-4 px-6">
+        <li><a class="flex items-center justify-center py-6 px-6 bg-gray-400 border rounded-lg shadow font-medium  hover:bg-gray-500 hove:border-2" href ="http://" target ="_blank" >Download CV</a></li>
+        <li><a class="flex items-center justify-center py-6 px-6 bg-gray-400 border rounded-lg shadow font-medium  hover:bg-gray-500 hove:border-2" href ="http://" target ="_blank" >Meu Linkedin</a></li>
+        <li><a class="flex items-center justify-center py-6 px-6 bg-gray-400 border rounded-lg shadow font-medium  hover:bg-gray-500 hove:border-2" href ="http://" target ="_blank" >Veja o meu portifólio</a></li>
+        <li><a class="flex items-center justify-center py-6 px-6 bg-gray-400 border rounded-lg shadow font-medium  hover:bg-gray-500 hove:border-2" href ="http://" target ="_blank" >Agendar reunião</a></li>
 
-        <footer class="footer">
-                <a href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="instagram"></i></a>
-                <a href="https://github.com/RafaShi" target="_blank"><i data-lucide="gitHub"></i></a>
-                <a href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="youtube"></i></a>
-                <a href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="linKedin"></i></a>
+        <footer class="gap-2 justify-center py-6 text-2xl">
+                <a class="flex items-center justify-center p-4 rounded-full hover:bg-gray-300 " href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="instagram"></i></a>
+                <a class="flex items-center justify-center p-4 rounded-full hover:bg-gray-300 " href="https://github.com/RafaShi" target="_blank"><i data-lucide="gitHub"></i></a>
+                <a class="flex items-center justify-center p-4 rounded-full hover:bg-gray-300 " href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="youtube"></i></a>
+                <a class="flex items-center justify-center p-4 rounded-full hover:bg-gray-300 " href="https://www.instagram.com/maatkkj?igsh=ZGNwamdxcXlqODF5" target="_blank"><i data-lucide="linKedin"></i></a>
     </ul>
         </footer>
 
